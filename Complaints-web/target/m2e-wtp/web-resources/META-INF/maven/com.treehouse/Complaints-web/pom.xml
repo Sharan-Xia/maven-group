@@ -6,6 +6,7 @@
     <groupId>com.treehouse</groupId>
     <artifactId>mavengrouptest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <!-- <relativePath>../mavengrouptest/pom.xml</relativePath> -->
   </parent>
   
   <groupId>com.treehouse</groupId>
@@ -16,6 +17,12 @@
   <url>http://maven.apache.org</url>
   
   <dependencies>
+  	<dependency>
+      <groupId>com.treehouse</groupId>
+      <artifactId>Complaints-services</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

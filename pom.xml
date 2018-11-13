@@ -8,7 +8,6 @@
   <name>Complaints-parent</name>
   <modules>
     <module>Complaints-web</module>
-    <module>Complaints-service</module>
     <module>Complaints-services</module>
   </modules>
   
